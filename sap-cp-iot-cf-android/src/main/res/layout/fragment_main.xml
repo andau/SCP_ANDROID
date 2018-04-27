@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.gautsch.myapplication.MainFragment">
+
+    <TextView
+        android:id="@+id/tvNextAction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:text="App loaded successfully"
+        android:textAlignment="center"
+        android:textAppearance="@android:style/TextAppearance.Material.Medium" />
+
+
+    <Button
+        android:id="@+id/buttonConnectToScp"
+        android:layout_width="201dp"
+        android:layout_height="105dp"
+        android:layout_below="@+id/tvNextAction"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="51dp"
+        android:background="@color/colorGray"
+        android:text="CONNECT"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="327dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="201dp"
+        android:layout_height="105dp"
+        android:layout_below="@+id/buttonConnectToScp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        android:text="SEND DATA"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="327dp" />
+
+    <TextView
+        android:id="@+id/tvSensorData"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/button"
+        android:layout_marginTop="25dp"
+        android:text="Sensor data: "
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</RelativeLayout>

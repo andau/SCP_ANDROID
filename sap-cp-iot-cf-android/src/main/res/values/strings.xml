@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">SCP IoT Demo</string>
+    <string name="settings">Settings</string>
+    <string name="title_edittext_host">Host</string>
+    <string name="title_edittext_username">Username</string>
+    <string name="title_edittext_password">Passwort</string>
+    <string name="title_edittext_deviceId">DeviceId</string>
+    <string name="title_edittext_androidSensorId">Android sensorId</string>
+    <string name="title_edittext_transmitInterval">Data transmit interval [ms]</string>
+    <string name="title_edittext_filter_by_prefix">Filter by prefix</string>
+
+    <string name="settings_host">settings_host</string>
+    <string name="settings_username">settings_username</string>
+    <string name="settings_password">settings_password</string>
+    <string name="settings_deviceId">settings_deviceId</string>
+    <string name="settings_transmitInterval">settings_transmitInterval</string>
+    <string name="settings_filterByPrefix">settings_filterByPrefix</string>
+
+    <string name="settings_accelerometerSensorId">settings_accelerometerSensorId</string>
+    <string name="settings_lightSensorId">settings_lightSensorId</string>
+    <string name="settings_proximitySensorId">settings_proximitySensorId</string>
+
+    <string name="settings_androidSensorId">settings_androidSensorId</string>
+
+    <string name="buttonConnectionToScp_settings">SETTINGS</string>
+    <string name="buttonConnectionToScp_initialize">CONNECT</string>
+    <string name="buttonConnectionToScp_initializing">CONNECTING</string>
+    <string name="buttonConnectionToScp_disconnect">DISCONNECT</string>
+    <string name="buttonConnectionToScp_init_failed">INIT FAILED - RETRY</string>
+    <string name="buttonRun_start">SEND DATA</string>
+    <string name="buttonRun_stop">STOP</string>
+    <string name="buttonRun_continue">CONTINUE</string>
+
+    <string name="toast_settings_incomplete">Connection parameters for SCP not set.\nPress <b>SETTINGS</b> to configure!"</string>
+    <string name="toast_ready_to_connect">"SCP connection ready. Press <b>CONNECT</b> to establish the connection!"</string>
+    <string name="toast_data_transmit_started">Transmitting sensor data to SAP Cloud Platform ...</string>
+    <string name="toast_data_transmit_stopped">Transmitting sensor data to SAP Cloud Platform paused</string>
+    <string name="toast_setting_up_connection">Connection initialization started ...\n </string>
+    <string name="toast_disconnected">Disconnected. Transmitting data stopped.\nPress <b>CONNECT</b> to reconnect</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- OCR -->
+    <string name="ok">OK</string>
+    <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
+    <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
+    <string name="low_storage_error">Ocr dependencies cannot be downloaded due to low device storage</string>
+    <string name="title_activity_main">Ocr Detector Sample</string>
+    <string name="ocr_header">Click &quot;Detect Text&quot; to detect text</string>
+    <string name="read_text">Detect Text</string>
+    <string name="auto_focus">Auto Focus</string>
+    <string name="use_flash">Use Flash</string>
+    <string name="filter_by_prefix"></string>
+    <string name="ocr_success">Text read successfully</string>
+    <string name="ocr_failure">No text captured</string>
+    <string name="ocr_error">"Error reading text: %1$s"</string>
+
+
+</resources>

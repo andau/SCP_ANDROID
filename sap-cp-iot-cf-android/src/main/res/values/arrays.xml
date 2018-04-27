@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sensor_array">
+        <item>Light sensor</item>
+        <item>Accelerometer sensor</item>
+        <item>Proximity sensor</item>
+        <item>Use case with camera</item>
+    </string-array>
+</resources>
